@@ -20,3 +20,17 @@ Linear algbera is crucial for a deeper understanding (pun intended) into reading
 14. Symmetric Matrices and Orthogonal Diagonalization
 15. Quadratic Forms
 16. Singular Value Decomposition
+
+
+Discrete Math: 
+Fundamentals of Theoretical Computer Science
+
+1. Prepositional Logic
+2. Predicate Logic
+3. Proofs
+4. Mathematical Induction
+5. Set Theory
+6. Functions
+7. Relations
+8. Partial Order Relations
+9. Algorithms
