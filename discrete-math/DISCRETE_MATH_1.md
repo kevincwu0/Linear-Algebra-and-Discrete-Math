@@ -1,1 +1,52 @@
-“# Why Proofs?”
+# Why Proofs? 
+
+- So why do we need proof to prove something? For mathematician, proof is a main tool. They always prove something. For programmers it's not the case actually.
+- If you write a video game, you probably won't prove anything. But it's not always the case. For example, if you try to write a cryptographic protocol which is secure, it's good if it's provably secure. It's indeed a big part of computer science. 
+- But first, what does it prove? 
+  - people often view proofs as a long formal meaningless manipulation
+  - not at all: an argument that is so convincing that you ready to use it to convince other people
+  - you need to understand the problems
+  - are they're fun
+- Objectives
+  - Learn by example how to understand proofs
+  - How to invent proofs
+  - How to explain proofs
+  - How to enjoy proofs (most important and ambitious goal)
+- Believe that God has a book best possible proof - clear, nice, and fun
+- "Proofs from THE BOOK" 
+- Begin with a puzzle
+  - Can a chessboard 8 x 8 be tiled (no overlaps or empty space by domino 1x2 tiles?
+  - Yes of course and in many ways
+  - Prove that without overlap (many overlaps)
+  - Can we tile this board without square (63 squares)
+    - we did not find a tile, we did not prove that tiling is not possible
+    - Can we do one of these two proofs
+- Impossibility proof 
+  - Tile the board with one cell miss in 8 x 8
+  - one cell will always remain
+  - 63 = 8 x 8 -1 cells, an odd number 
+  - 32 tiles cover 62 cells, one remains
+  - mission provably impossible
+- Two corners cut
+  - 62 cells (but opposite corners)
+  - 64 - 2 = 62 cells, 62/2 = 31 tiles...so the tiling is possible? No the argument is not okay
+  - It's impossible 
+- Impossibility proof pt.2
+  - 64 (32 white and black) 
+  - If we remove two black tiles or two white tiles, impossible
+  - black and white for 1x2 tile
+  - Theorem: A chess board 8 x 8 without two opposite corners cannot be tiled by 1 x 2 dominos
+  - Proof: 
+    - black and white cells, 4 black / 4 white (each column)
+    - opposite corners are (say) black
+    - 30 black and 32 white
+    - a domino: two different colors
+    - (at least) two white remain
+    - quod erat demonstrandum
+- Takeaways:
+  - Proofs can be really convincing
+  - What if we cut two non-opposite corners? Can we tile the rest? 
+  - Bonus problem: what if any two tiles
+  - Snake with our property? Cut cells of black and white how the snake can help us
+  - One can reason in the following way: if you delete two cells from the snake, it is split into two parts. Since the colors were different, each part contains an even number of cells. Thereforce we can cut the parts into blocks of length 2, i.e. into tiles. 
+- https://d18ky98rnyall9.cloudfront.net/_c842af7c1a2ac997b558648912fe7267_WhyProofs.pdf?Expires=1505606400&Signature=eUq2jdCx6Pb3~2ZGAJDpT~w42D8TiuDv39Sq2JbZ74Pdz3rVNUYO8qKfwu5Bvc1hJGOy16owJ9cFAWF3twT-6yWNRJujYJRKI2WlmAjiyGkg1i1DemjZHMaYXF-1DG1pzLFZfesiYvjq7JtkYLtH2yfWU1ttBCS2UYo7oQe2M44_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
