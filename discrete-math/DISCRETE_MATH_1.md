@@ -50,3 +50,77 @@
   - Snake with our property? Cut cells of black and white how the snake can help us
   - One can reason in the following way: if you delete two cells from the snake, it is split into two parts. Since the colors were different, each part contains an even number of cells. Thereforce we can cut the parts into blocks of length 2, i.e. into tiles. 
 - https://d18ky98rnyall9.cloudfront.net/_c842af7c1a2ac997b558648912fe7267_WhyProofs.pdf?Expires=1505606400&Signature=eUq2jdCx6Pb3~2ZGAJDpT~w42D8TiuDv39Sq2JbZ74Pdz3rVNUYO8qKfwu5Bvc1hJGOy16owJ9cFAWF3twT-6yWNRJujYJRKI2WlmAjiyGkg1i1DemjZHMaYXF-1DG1pzLFZfesiYvjq7JtkYLtH2yfWU1ttBCS2UYo7oQe2M44_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
+
+# Existence Proofs
+- When one example is enough
+  - E.g. unicorn 
+- Proofs for Existential Statements
+  - What does the proof look like?
+  - It depends?
+  - Claim: object with given properties exists
+  - proof: an example
+  - one example is enough
+- Cutting figures
+  - congruent pieces: of the same shape and size
+  - prove that this figure into can be cut into two congruent pieces
+  - cut L shape into congruent and same, no need for other examples
+- Splitting an Octagon
+  - Into congruent parts, split
+  - What about three congruent pieces?
+- Example of real life
+  - E.g. Tensegrities (Tension and integrity) 
+  - Lots of threads and straws, goal to create a solid structure
+  - a solid construction made from sticks that are connected by pieces of rope in such a way that the sticks do not touch each other and the entire construction is solid
+  - none of the straws are not touching, tensegrities
+- Know your rights 
+  - Protect your sources
+    - Imagine you want to find a two-digit number that becomes 7 times smaller when the first digit is deleted
+    - 35 = 7 * 5
+    - must be divisble by 7
+    - What if we asked for a number becomes 57 times smaller when the first digit is deleted
+  - Explain how to find the solution
+    - 7125 is the answer
+    - ab....z = 57 x b .. z
+    - X = b...z
+    - X + a^(0...0) (k) - K zeros
+    - X = b...z has k digits
+    - a * 10^k + X = 57 * X
+    - a * 10^k = 56 * X = 7 * 8 * X
+      - we have 7 on the right
+      - left had side 2^k * 5^k
+      - so a = 7 , no other possibilities
+      - a divisible by 7: only a = 7 works
+      - 10^k = 8 * X; 10 and 100 not multiples of 8
+      - 1000 works, X = 125
+      - Also 71250 = 57 * 1250
+ - Nobody Can Win All the Times
+  - Splitting Weights
+    - preparing for height, same backpack, many items for the hike, 
+    - split into same weight
+    - 1 + 2 = 3
+    - +/- 1 +/- 2 +/- 3 = 0
+    - + 1 + 2 - 3 = 0
+    - e.g. 1,2,3,4,5, 7
+    - total weight: 1 + 2 + 3 + 4 + 5 + 7 = 22
+    - each group should 11, find 11 and you're done
+    - easy 4 + 7 (also 1 + 2 + 3 + 5)
+    - obstacles 1,2,3,4,5,6
+    - total weight 21 cannot split into two groups, 21 is not a multiple of 2
+    - e.g. 2,4,6,8,10,12
+  - Bad news
+    - 1,2,3,4,5,17
+    - 32, but 16 is half, but 17 is too big...
+    - obstacles of different types
+    - no complete list, some rule into two group the sum is even etc. some conditions (but this is not the case)
+    - NP-complete = infeasible problem
+    - 10,000 numbers no way can split into two numbers
+    - we cannot prove that an algorithm exists
+    - whether there is an algorithm to solve this splitting weight problem
+    - boundary is close, NP-complete problems
+ - Take-home Message
+  - The structure of the proof reflects the structure of the claim
+  - claim: an object with some property exists
+  - proof: an example (existential argument)
+  - no obligation to find the example (from your friend, mathematical proof by bad tools)
+  - beware: claim may be false!
+- https://d18ky98rnyall9.cloudfront.net/_56a7df7e29ee553c75c37b2edcffdd9d_02_existence_proof.pdf?Expires=1505606400&Signature=cgY3UsRdbklZn235n3oQ2XnBRxKuxswS7g3hDwVln1vPBxr1MdEFj0hSRfSYFpc7Lri4QXycWYNvuZG8TG2CscjLW~Rfa4jW1u3DhyfpRbmKKkcTDmLQ94luNhXkF9EfOhlf5uTOAiWX-JhIBDmy8bk-M5HTkdOPFCl-Et20a5U_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
