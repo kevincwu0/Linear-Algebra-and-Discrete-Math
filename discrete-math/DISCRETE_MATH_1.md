@@ -1,6 +1,6 @@
 # Why Proofs? 
 
-- So why do we need proof to prove something? For mathematician, proofs are their main tool. They always prove something. For programmers it's not the case actually.
+- So why do we need proofs to prove something? For mathematician, proofs are their main tool. They always prove something. For programmers it's not the case actually.
 - If you write a video game, you probably won't prove anything. But it's not always the case. For example, if you try to write a cryptographic protocol which is secure, it's good if it's provably secure. It's indeed a big part of computer science. 
 - But first, what does it prove? 
   - people often view proofs as a long formal meaningless manipulation
