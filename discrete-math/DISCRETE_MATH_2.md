@@ -28,3 +28,52 @@
         - 2(7) - 13 = 1
       - Bottom up approach or 7 - 6 =1  ~ capitalize what you already know
       - 7x + 13y = c has integer solutions
+      - every integer can be an integer linear combination
+    - Ex. 15/21 coins how to pay 6?
+      - 6 = 21 - 15
+      - Can we pay 8 florins using 15 & 21 florin coinds
+      - Euclid's Algorithm - Number Theory
+  - Switching from Number Theory to Graph Theory
+    - Hotel A(10), B(15), C(20) - change every night for 10 + 15 + 20 = 45 nights
+    - Repeat five times a path of length nine
+    - initial point different from
+    - Impossible task
+      - A(10), B(15), C(30) 
+      - Too many vouchers for C, can't alternate at least one less than largest
+      
+### Computer Search
+  - Puzzle: N Queens
+    - Place N queens such that no two attack each other
+  - Computer Search
+    - To prove an object satisying some particular properties exist
+    - Cases when a solution exists, but not easy to construct by hand
+    - Computer do the job!
+  - N-Queen Puzzle
+    - Queen moves vertically, horizontally, diagonally
+    - NxN chessboard no two queens can attack each other
+    - N >= 4
+    - N = 8 not easy to construct a solution 
+  - Speculating
+    - Represent a particular solution
+    - Every column must be at least at most queen
+    - Strictly less than N queen
+    - Each row exactly an queen
+  - Design a formula same diagonal
+  - iterate through all permutations
+  - Optimization - N Queens: Backtracking
+    - Backtracking: construct a permutation piece by piece, solution piece by piece
+    - 1) Queen first row
+    - 2) Second row
+    - 3) If no way to place (readjust) - backtracking
+    - backtrack if current partial permutation cannot be extend to valid solution
+  - Generate all possible permutation N Queens: Backtracking
+  - Combine methods already impelemted, method whether solution or not, have a partial permutation
+  - Main idea of backtracking: cut dead ends of recursion tree
+    - since many ends are dead, it works faster than an enurmeration of all permutation
+ 
+### Optimality 
+  - Optimality Value alpha
+  - A proof of the fact that some value alpha is optimal usually consisting of two parts
+    - 1) Existential statment: exists a solution achieving the value alpha
+    - 2) Universal statement: solution achieve not greater than alpha
+  - e.g. Rooks on a Chessboard, Knights on a Chessboard, Bishops on a Chessboard, Final Optimality #3 
